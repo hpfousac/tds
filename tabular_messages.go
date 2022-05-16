@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/thda/tds/binary"
+	"github.com/hpfousac/tds/binary"
 
 	"errors"
 )

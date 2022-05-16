@@ -349,7 +349,7 @@ func (s *session) Close() error {
 		return fmt.Errorf("tds: close failed: %s", err)
 	}
 
-	s.b.receive(s.state) // https://github.com/thda/tds/issues/29
+	s.b.receive(s.state) // https://github.com/hpfousac/tds/issues/29
 
 	return nil
 }
